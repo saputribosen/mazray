@@ -38,9 +38,9 @@ docker compose down && docker compose up -d
  ```
  
  Saat masuk, setting host di menu kanan atas <br>
- ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/vmess.png)
- ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/vless.png)
- ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/Agunxzzz/MarXray/main/trojan.png)
+ ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/saputribosen/mazray/main/vmess.png)
+ ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/saputribosen/mazray/main/vless.png)
+ ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/saputribosen/mazray/main/trojan.png)
  <br>
  id.jateng.tech diatas, ganti dengan domainmu <br>
  vless ntls diatas typo, yg bener port 80 <br>
