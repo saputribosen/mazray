@@ -32,7 +32,7 @@ After saving, please go to the marzban folder with
 ```html
 cd /root/marzban
  ```
-lalu
+next
 ```html
 docker compose down && docker compose up -d
  ```
