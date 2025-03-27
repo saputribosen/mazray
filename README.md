@@ -6,10 +6,8 @@
     </picture>
   </a>
 </p>
-# MarXray 
-
-## Tested only on Ubuntu 20.04 <br>
-Link github Orginal (https://github.com/Gozargah/Marzban) which added nginx so that vmess can be multipath and all can be ssl + nonssl
+## Tested Ubuntu 20.04 <br>
+Link github Original (https://github.com/Gozargah/Marzban) which added nginx so that vmess can be multipath and all can be ssl + nonssl
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
@@ -24,7 +22,7 @@ Open web panel http://yourdomain:8880/dashboard <br>
 user: admin <br>
 pass: admin
 
-user pass can be changed with the command
+user pass panel can be changed with the command
 ```html
 nano /root/marzban/env
  ```
