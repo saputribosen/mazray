@@ -41,7 +41,7 @@ docker compose down && docker compose up -d
  ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/saputribosen/mazray/main/trojan.jpg)
  ![Screenshot_20230404-154004_Termius](https://raw.githubusercontent.com/saputribosen/mazray/main/shadowsock.jpg)
  <br>
- id.jateng.tech, change with your domain <br> <br>
+ idnusa.aryok.my.id, change with your domain <br> <br>
  For help? PM me :<a href="https://t.me/aryobrokoly" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 <br>
 https://www.youtube.com/watch?v=b88tR_OtMGw
