@@ -9,7 +9,7 @@
 # MarXray 
 
 ## Tested only on Ubuntu 20.04 <br>
-Link github Marzban (https://github.com/Gozargah/Marzban) which added nginx so that vmess can be multipath and all can be ssl + nonssl
+Link github Orginal (https://github.com/Gozargah/Marzban) which added nginx so that vmess can be multipath and all can be ssl + nonssl
   
   ```html
  apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
