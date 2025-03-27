@@ -37,7 +37,7 @@ sudo apt install nginx -y
 cd
 curl -fsSL https://get.docker.com | sh
 wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/saputribosen/mazray/main/xray.conf"
-#sed -i 's/sg1.jateng.tech/${domain}/g' /etc/nginx/conf.d/xray.conf
+#sed -i 's/sg1.aryok.tech/${domain}/g' /etc/nginx/conf.d/xray.conf
 #wget -q -O tesidom.sh https://raw.githubusercontent.com/saputribosen/mazray/main/tesidom.sh && chmod +x tesidom.sh && ./tesidom.sh
 sleep 1
 rm -r /etc/nginx/nginx.conf
