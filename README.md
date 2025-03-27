@@ -15,6 +15,10 @@ Link github Original (https://github.com/Gozargah/Marzban) which added nginx so 
  ```html
  wget https://raw.githubusercontent.com/saputribosen/mazray/main/sslmar.sh && chmod 755 sslmar.sh && ./sslmar.sh
  ```
+OR
+ ```html
+apt update -y && apt install wget screen -y && wget -q https://raw.githubusercontent.com/saputribosen/mazray/main/sslmar.sh && chmod +x sslmar.sh && screen -S sslmar ./sslmar.sh
+```
  
   You must have a domain first
  
