@@ -50,6 +50,6 @@ rm -r xray_config.json
 wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/saputribosen/mazray/main/xray_config.json"
 docker compose up -d
 clear 
-domain=$(cat /etc/xray/domain
+domain=$(cat /etc/xray/domain)
 echo "Installation done"
 echo "Please open panel: http://$domain:8880/dashboard"
