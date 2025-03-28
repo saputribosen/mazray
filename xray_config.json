@@ -14,12 +14,12 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/"
+                    "path": "/vmess"
                 }
                 // ,
                 // "security": "tls",
                 // "tlsSettings": {
-                //     "serverName": "SERVER_NAME",
+                //     "serverName": "sg1.jateng.tech",
                 //     "certificates": [
                 //         {
                 //             "ocspStapling": 3600,
@@ -32,6 +32,21 @@
                 // }
             }
         },
+        {
+            "tag": "VMESSGPRC_INBOUND",
+            "listen": "127.0.0.1",
+            "port": "50024",
+           "protocol": "vmess",
+            "settings": {
+                  "clients": []
+             },
+             "streamSettings":{
+               "network": "grpc",
+                  "grpcSettings": {
+                      "serviceName": "vmess-grpc"
+                }
+              }
+           },
         {
             "tag": "VLESS_INBOUND",
             "listen": "0.0.0.0",
@@ -44,7 +59,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/"
+                    "path": "/vless"
                 }
                 // ,
                 // "security": "tls",
@@ -62,6 +77,23 @@
                 // }
             }
         },
+        {
+            "tag": "VLESSGPRC_INBOUND",
+            "listen": "127.0.0.1",
+            "port": "50023",
+            "protocol": "vless",
+            "settings": {
+             "clients": [],
+             "decryption":"none"
+               
+           },
+              "streamSettings":{
+                 "network": "grpc",
+                 "grpcSettings": {
+                    "serviceName": "vless-grpc"
+               }
+            }
+         },
         {
             "tag": "TROJAN_INBOUND",
             "listen": "0.0.0.0",
@@ -73,7 +105,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/"
+                    "path": "/trojan-ws"
                 }
                 // ,
                 // "security": "tls",
@@ -92,9 +124,26 @@
             }
         },
         {
+            "tag": "TROJANGPRC_INBOUND",
+            "listen": "127.0.0.1",
+            "port": "50025",
+            "protocol": "trojan",
+            "settings": {
+              "clients": [],
+              "decryption":"none"
+                 
+            },
+             "streamSettings":{
+             "network": "grpc",
+               "grpcSettings": {
+                   "serviceName": "trojan-grpc"
+             }
+          }
+         },
+        {
             "tag": "SHADOWSOCKS_INBOUND",
             "listen": "0.0.0.0",
-            "port": 2096,
+            "port": 2016,
             "protocol": "shadowsocks",
             "settings": {
                 "clients": [],
