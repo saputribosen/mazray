@@ -19,7 +19,8 @@ OR
  ```html
 apt update -y && apt install wget screen -y && wget -q https://raw.githubusercontent.com/saputribosen/mazray/main/sslmar.sh && chmod +x sslmar.sh && screen -S sslmar ./sslmar.sh
 ```
- 
+
+ NO HAVEE
   You must have a domain first
  
 Open web panel http://yourdomain:8880/dashboard <br>
